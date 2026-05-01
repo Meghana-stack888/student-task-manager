@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', monospace;
+    background-color: #ffe5d9;
+    text-align: center;
+    font-size: 18px;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+}
+
+input,
+select {
+    padding: 10px;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #ffb5a7;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+ul {
+    list-style: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.filters {
+    margin: 10px;
+}
+
+.filters button {
+    margin: 5px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+li div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+small {
+    font-size: 12px;
+    color: gray;
+    margin-top: 3px;
+}
+#searchInput {
+    width: 90%;
+    padding: 8px;
+    margin: 10px;
+}
+
+
+button {
+    background: #ffe4ec;   /* light pink */
+    color: black;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+button:hover {
+    background: #ffc1d6;   /* darker pink on hover */
+}
+small {
+    font-size: 11px;
+    color: #999;        /* soft gray */
+    margin-top: 4px;
+    letter-spacing: 0.3px;
+}
+li div:first-child span {
+    font-size: 15px;
+    font-weight: 500;
+}
+#deadline {
+    width: 160px !important;
+    padding: 6px !important;
+    font-size: 13px !important;
+    border-radius: 6px !important;
+    border: 1px solid #ccc !important;
+    background-color: #fff0f5 !important;
+}
+#date, #time {
+    padding: 6px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #fff0f5;
+    margin-left: 5px;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f9ff;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    width: 420px;
+    margin-top: 40px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+#date, #time {
+    background: #fff0f5;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fdfdff;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+li:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+small {
+    font-size: 11px;
+    color: #999;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    margin: 15px 0;
+    padding: 8px;
+    flex-wrap: wrap;
+    background: transparent;
+}
+li div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+li div:last-child {
+    display: flex;
+    gap: 6px;
+}
+.dashboard span {
+    background: #ffe4ec;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    min-width: auto;
+}
+li {
+    transition: 0.2s ease;
+}
+#themeToggle {
+    float: right;
+    margin-bottom: 10px;
+    background: #ffe4ec;
+    color: black;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#themeToggle:hover {
+    background: #ffc1d6;
+}
+.dark {
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark .container {
+    background: #2c2c2c;
+    color: white;
+}
+
+.dark h1 {
+    color: white;
+}
+
+.dark input {
+    background: #444;
+    color: white;
+    border: 1px solid #666;
+}
+
+.dark li {
+    background: #3a3a3a;
+}
+
+.dark button {
+    background: #555;
+    color: white;
+}
+
+.dark button:hover {
+    background: #777;
+}
+
+.dark .dashboard span {
+    background: #3a3a3a;
+    color: white;
+}
+
+.dark small {
+    color: #ccc;
+}
+.dark input,
+.dark input[type="date"],
+.dark input[type="time"] {
+    background: #444;
+    color: white;
+    border: 1px solid #666;
+}
+
+.dark input::placeholder {
+    color: #ccc;
+}
+.dark input[type="date"]::-webkit-calendar-picker-indicator,
+.dark input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    cursor: pointer;
+}.dark #date,
+.dark #time {
+    background: #444 !important;
+    color: white !important;
+    border: 1px solid #666 !important;
+}
+
+.dark #date::placeholder,
+.dark #time::placeholder {
+    color: #ccc !important;
+}
+.dark #date::-webkit-calendar-picker-indicator,
+.dark #time::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+#toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #222;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-size: 14px;
+    min-width: 220px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    z-index: 9999;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.4s ease;
+    pointer-events: none;
+}
+
+#toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+#priority {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #ffe4ec;
+    color: black;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    min-width: 170px;
+}
+
+#priority:hover {
+    background: #ffc1d6;
+}
+
+.dark #priority {
+    background: #444 !important;
+    color: white !important;
+    border: 1px solid #666 !important;
+}
+.priority-badge {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.high {
+    background: #ffe5e5;
+    color: #c40000;
+}
+
+.medium {
+    background: #fff4d6;
+    color: #b88600;
+}
+
+.low {
+    background: #e4ffe8;
+    color: #008a2e;
+}
+
+.dark .high {
+    background: #5a1f1f;
+    color: #ff8a8a;
+}
+
+.dark .medium {
+    background: #5c4a12;
+    color: #ffd45a;
+}
+
+.dark .low {
+    background: #153d22;
+    color: #72ff9a;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Desktop / Laptop Base */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 14px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#searchInput {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Mobile / Tablet */
+@media (max-width: 768px) {
+
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    form input,
+    form button,
+    form select {
+        width: 100%;
+        margin: 0;
+    }
+
+    .dashboard {
+        flex-direction: column;
+        text-align: center;
+        gap: 8px;
+    }
+
+    .filters {
+        justify-content: center;
+    }
+
+    .filters button {
+        flex: 1 1 45%;
+    }
+
+    #taskList li {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    #taskList li > div:last-child {
+        display: flex;
+        width: 100%;
+        gap: 8px;
+    }
+
+    #taskList li > div:last-child button {
+        flex: 1;
+    }
+
+    button,
+    input,
+    select {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    small,
+    .priority-badge {
+        font-size: 10px;
+    }
+}                                                    
